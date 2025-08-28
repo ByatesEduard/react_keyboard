@@ -9,7 +9,6 @@ export class App extends React.Component<{}, State> {
     pressedKey: null,
   };
 
-  // Метод-обробник
   handleKeyUp = (event: KeyboardEvent) => {
     this.setState({ pressedKey: event.key });
   };
