@@ -25,7 +25,10 @@ export class App extends React.Component<{}, State> {
     const { pressedKey } = this.state;
 
     return (
-      <div style={{ fontSize: '20px', padding: '20px' }}>
+      <div
+        className="App__message"
+        style={{ fontSize: '20px', padding: '20px' }}
+      >
         {pressedKey
           ? `The last pressed key is "${pressedKey}"`
           : 'Nothing was pressed yet'}
