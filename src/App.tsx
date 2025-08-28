@@ -29,9 +29,11 @@ export class App extends React.Component<{}, State> {
         className="App__message"
         style={{ fontSize: '20px', padding: '20px' }}
       >
+        {/* prettier-ignore */}
         {pressedKey
           ? `The last pressed key is "${pressedKey}"`
-          : 'Nothing was pressed yet'}
+          : 'Nothing was pressed yet'
+        }
       </div>
     );
   }
