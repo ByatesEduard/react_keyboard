@@ -32,8 +32,7 @@ export class App extends React.Component<{}, State> {
         {/* prettier-ignore */}
         {pressedKey
           ? `The last pressed key is "${pressedKey}"`
-          : 'Nothing was pressed yet'
-        }
+          : 'Nothing was pressed yet'}
       </div>
     );
   }
